@@ -1,0 +1,72 @@
+body{
+background-color: #f0f4f8;
+font-family: Arial, Sans-serif
+}
+
+.header-hobi {
+    background-color: #2c3e50;
+    color: white;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.tentang-hobi {
+    background-color: white;
+    color: black;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.perlengkapan-box {
+    background-color:#e8f5e9;
+    color: black;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px gray;
+}
+/*Aturan Gaya Tabel */
+.tabel.hobi {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.tabel.hobi th, .tabel.hobi td {
+    border: 1px solid #333333;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabel.hobi th {
+    background-color: #c8e6c9;
+}
+
+.galeri-hobi {
+    background-color:#e8f5e9;
+    color:#333333;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px gray;
+    text-align: center;
+}
+.bungkus-foto {
+    display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.bungkus-foto img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+}
